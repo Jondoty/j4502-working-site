@@ -1,0 +1,36 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #ebf0fa;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  border: 0px;
+}
+
+h2 {
+  color: #0f1f3d;
+}
+
+p {
+  color: #130606;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+a:link {
+  color: #3973ac;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #6666ff;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #264d73;
+  text-decoration:none;
+}
