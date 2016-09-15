@@ -5,7 +5,6 @@ body {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top: 25px;
-  border: 0px;
 }
 
 h2 {
@@ -33,4 +32,58 @@ a:visited {
 a:hover {
   color: #264d73;
   text-decoration:none;
+}
+
+
+#nav a:link, a:visited {
+  display: block;
+  color: #fff;
+  background-color: #98bf21;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+  background-color: #7a991a;
+}
+
+
+.caption {
+  color:black;
+  font-family:Georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  font-style:italic;
+  margin-top:0;
+}
+
+#container {
+  width: 95%;
+  background-color:#ffffff;
+  margin: 0 auto;
+}
+
+#nav {
+  padding-left: 0px;
+}
+
+#nav li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+#footer {
+  color: black;
+  font-weight: Georgia, "Times New Roman", serif;
+  font-size: .8em;
+  border-top: 1px solid black;
+}
+
+img {
+  border: none;
 }
