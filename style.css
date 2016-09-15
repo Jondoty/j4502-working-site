@@ -37,17 +37,17 @@ p.light {
 
 
 
-a:link {
+#body a:link {
   color: #3973ac;
   text-decoration:none;
 }
 
-a:visited {
+#body a:visited {
   color: #6666ff;
   text-decoration:none;
 }
 
-a:hover {
+#body a:hover {
   color: #264d73;
   text-decoration:none;
 }
