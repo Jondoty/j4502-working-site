@@ -19,21 +19,6 @@ p.light {
     font-weight: lighter;
 }
 
-a:link {
-  color: #3973ac;
-  text-decoration:none;
-}
-
-a:visited {
-  color: #6666ff;
-  text-decoration:none;
-}
-
-a:hover {
-  color: #264d73;
-  text-decoration:none;
-}
-
 
 #nav a:link, a:visited {
   display: block;
@@ -50,6 +35,22 @@ a:hover {
   background-color: #7a991a;
 }
 
+
+
+a:link {
+  color: #3973ac;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #6666ff;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #264d73;
+  text-decoration:none;
+}
 
 .caption {
   color:black;
