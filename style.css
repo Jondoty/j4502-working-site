@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: Georgia, "Times New Roman", serif;
   background-color: #ebf0fa;
@@ -7,12 +11,21 @@ body {
   padding-top: 25px;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
   color: #0f1f3d;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 p {
   color: #130606;
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-size: .9em;
+  line-height: 1.35rem;
 }
 
 p.light {
@@ -23,7 +36,7 @@ p.light {
 #nav a:link, a:visited {
   display: block;
   color: #fff;
-  background-color: #98bf21;
+  background-color: #66a3ff;
   text-align: center;
   text-decoration: none;
   padding: 4px;
@@ -87,4 +100,9 @@ p.light {
 
 img {
   border: none;
+}
+
+
+em {
+	font-style: italic;
 }
