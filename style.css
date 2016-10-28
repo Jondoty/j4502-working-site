@@ -105,6 +105,9 @@ p.light {
 img.float {
   border: none;
   padding: 10px;
+  min-width: 25%;
+  min-height: 25%;
+  margin-right: 10px;
 }
 
 
