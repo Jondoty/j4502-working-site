@@ -5,10 +5,14 @@ html {
 body {
   font-family: Georgia, "Times New Roman", serif;
   background-color: #ebf0fa;
-  padding-left: 50px;
+  padding-left: .5em;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top: 25px;
+}
+
+#container {
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -98,11 +102,96 @@ p.light {
   border-top: 1px solid black;
 }
 
-img {
+img.float {
   border: none;
+  padding: 10px;
 }
 
 
 em {
 	font-style: italic;
+}
+
+.sidebar {
+  background: gold;
+}
+
+
+.float {
+  float: left
+}
+
+
+/* Beginning Flexbox Section*/
+
+aside
+{
+    display : inline-block;
+    width : 12em;
+    border-width : 0.1em;
+    border-color : black;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 800px){
+    .nav {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
+    .nav a:hover {
+      background: black;
+    }
+    .aside {
+      flex: 1 auto;
+    }
+    .main {
+      flex: 3 0px;
+    }
+    .aside-1 {
+      order:1;
+    }
+    .main{
+      order: 2;
+    }
+    .aside-2 {
+      order: 3;
+			border: 1px;
+    }
+    .footer {
+      order: 4;
+    }
+    .main {
+      display: flex;
+      flex-flow: row;
+    }
+    .nav a {
+      border: none;
+    }
+}
+
+@media (min-width: 599px) {
+	.nav {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+
+.container {
+	padding: 10px;
+	background: #66c2ff;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item {
+	color: #000;
+	padding: 15px;
+	margin: 5px;
+	background: #66c2ff;
+	border-radius: 3px;
 }
