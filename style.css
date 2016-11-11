@@ -60,7 +60,7 @@ p.light {
 }
 
 #body a:visited {
-  color: #6666ff;
+  color: gray;
   text-decoration:none;
 }
 
