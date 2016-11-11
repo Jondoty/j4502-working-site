@@ -41,8 +41,8 @@ p.light {
 
 #nav a:link, a:visited {
   display: block;
-  color: #fff;
-  background-color: #66c2ff;
+  color: #000;
+  background-color: grey;
   text-align: center;
   text-decoration: none;
   padding: 4px;
@@ -191,7 +191,7 @@ aside
   .mobile {display: none}
 }
 
-@media only screen and (min-width: 550px) and (max-width: 800px) {
+@media only screen and (min-width: 550px) {
 
   .nav {
     flex-flow: row;
@@ -201,9 +201,30 @@ aside
     aside.aside.aside-2 {
     width: 1500px;
   }
+
+  nav ul {
+      display: flex;
+  }
+
+  nav ul li {
+      border-top: none;
+  }
+
+  .menu-trigger {
+      display: none;
+  }
+
+  header h1 {
+      order: 1;
+  }
+
+  nav {
+      order: 2;
+  }
+
 }
 
-@media (min-width: 950px) {
+@media (max-width: 800px) {
   .item {
     width: 180px;
   }
@@ -211,4 +232,22 @@ aside
   aside.aside.aside-2 {
   width: 1500px;
 }
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+nav ul li {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
 }
