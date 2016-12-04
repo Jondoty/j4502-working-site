@@ -251,3 +251,18 @@ nav a {
     text-decoration: none;
     padding: 20px 30px;
 }
+
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom: 90%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
